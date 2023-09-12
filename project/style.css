@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+text-container>h1 {
+    font: normal normal 900 80px/118px Heebo;
+}
+
+text-container>p {
+    font: normal normal 500 20px/30px Heebo;
+}
+
+.header-container {
+    /*  background-image: url(./images/bgci.jpg); */
+
+    background-image:
+        linear-gradient(to bottom, rgba(20, 208, 245, 0.171), rgb(255, 255, 255)), url('./images/lines.jpg');
+    height: 28em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+}
+
+.technologies {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
